@@ -25,9 +25,9 @@ def send_welcome(message):
 ⏳ <b>সময় নষ্ট না করে এখনই জয়েন করুন এবং ভাইরাল জগতে প্রবেশ করুন!</b>
     """
     markup = types.InlineKeyboardMarkup(row_width=1)
-    btn1 = types.InlineKeyboardButton("📌 চ্যানেল ১", url="https://t.me/+vJ_xDonMR91mMjRl")
-    btn2 = types.InlineKeyboardButton("💬 গ্রুপ ১ (আলোচনা ও শেয়ার)", url="https://t.me/+saMgMeq1TP85NTc1")
-    btn3 = types.InlineKeyboardButton("🤖 বটের ভিডিও সংগ্রহ লিংক", url="https://t.me/viralvideosu_bot/Watch")
+    btn1 = types.InlineKeyboardButton("📌 Channel ", url="https://t.me/+vJ_xDonMR91mMjRl")
+    btn2 = types.InlineKeyboardButton("💬 Group ", url="https://t.me/+saMgMeq1TP85NTc1")
+    btn3 = types.InlineKeyboardButton("▶️ Viral Video Link", url="https://t.me/viralvideosu_bot/Watch")
     markup.add(btn1, btn2, btn3)
     bot.send_message(message.chat.id, text, reply_markup=markup)
 
